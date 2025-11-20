@@ -6,6 +6,11 @@
   font-family: "Poppins", sans-serif;
 }
 
+iframe {
+  transform: translateZ(0);
+  will-change: transform;
+}
+
 body {
   background: linear-gradient(135deg, #0b0b0b, #1a1a1a);
   color: #fff;
@@ -91,4 +96,5 @@ input:focus {
   border: 1px solid #00d4ff;
   box-shadow: 0 0 12px rgba(0,200,255,0.7), inset 0 0 10px rgba(0,200,255,0.3);
 }
+
 
